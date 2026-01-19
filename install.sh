@@ -4,7 +4,7 @@ echo "[+] Installing Light Termux Theme..."
 
 mkdir -p ~/.light_theme
 
-curl -s https://LINK_TO_THEME_LIGHT_B64 -o ~/.light_theme/data || {
+curl -s https://raw.githubusercontent.com/light-theme/Theme/refs/heads/main/theme_light.b64 -o ~/.light_theme/data || {
   echo "Download failed"
   exit 1
 }
